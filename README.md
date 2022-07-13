@@ -29,4 +29,17 @@ git clone git@github.com:DreamerLark/rasa-demo.git
 pip install git+https://github.com/mit-nlp/MITIE.git
 pip install rasa[mitie] 
 pip install jieba
+
 ```
+中文词向量模型total_word_feature_extractor_zh.dat(密码：p4vx)（https://pan.baidu.com/s/1kNENvlHLYWZIddmtWJ7Pdg）
+需要将该模型拷贝到创建的python项目data目录下(可任意位置)，后面训练NLU模型时用到
+
+
+参考
+
+https://www.iteye.com/blog/784838898-2515975
+
+https://blog.csdn.net/weixin_43815222/article/details/121649581
+
+https://rasa.com/docs/rasa/installation
+
