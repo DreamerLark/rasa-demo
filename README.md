@@ -26,7 +26,7 @@ pip3 install rasa
 ```
 git clone git@github.com:DreamerLark/rasa-demo.git
 
-pip install git+https://github.com/mit-nlp/MITIE.git
+pip install git+https://github.com/mit-nlp/MITIE.git (pip install git+https://gitclone.com/github.com/mit-nlp/MITIE.git 解决国内服务器github访问)
 pip install rasa[mitie] 
 pip install jieba
 
